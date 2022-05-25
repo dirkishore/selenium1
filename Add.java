@@ -8,8 +8,7 @@ public class Add{
 		Scanner sc = new Scanner(System.in);
 		int arrVal[] = { 100, 200, 300, 400, 500 };
 		System.out.println("The Array:" + Arrays.toString(arrVal));
-		System.out.println("Enter key value:");
-		int key = sc.nextInt();
+		int key = 300;
 		int first = 0;
 		int last = arrVal.length - 1;
 		int mid = (first + last) / 2;
