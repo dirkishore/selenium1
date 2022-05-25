@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class Add{
   public static void main(String[] args){
-   public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int arrVal[] = { 100, 200, 300, 400, 500 };
 		System.out.println("The Array:" + Arrays.toString(arrVal));
@@ -26,5 +25,4 @@ public class Add{
 		if (first > last) {
 			System.out.println("Element not found!");
 		}
-  }
 }
